@@ -3,9 +3,9 @@ Continue building as more tasks arise
 
 ### Data Collection
 - [ ] Scrape all data for assets in `data/info/tickers.txt` into pandas pickles in `data/raw/*.zip`:
-  - [ ] scrape data only for tickers which have values for both 1999-01-04 and 2021-03-01
-  - [ ] calculate an average of OHLC price column
-  - [ ] calcuate a rate-of-change column for the averaged daily price (one day look-back)
+  - [X] scrape data only for tickers which have values for both 1999-01-04 and 2021-03-01
+  - [X] calculate an average of OHLC price column
+  - [X] calcuate a rate-of-change column for the averaged daily price (one day look-back)
   - [ ] save the DataFrame as a pickle in `data/raw/<ticker>.zip`
 
 ### Exploratory Data Analysis
