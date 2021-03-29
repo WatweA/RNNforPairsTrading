@@ -25,21 +25,18 @@ with open("tickers.txt") as f:
             tickers[header].append(line[index])
 
 
-data = {}
-i = 0
 for ticker in tickers["symbol"]:
-    if i >= 10: break;
     try:
-        pdr.get_data_yahoo(symbols=ticker, start=datetime(1999, 1, 4), end=datetime(1999, 1, 4))
-        pdr.get_data_yahoo(symbols=ticker, start=datetime(2021, 3, 1), end=datetime(2021, 3, 1))
-        data[ticker] = pdr.get_data_yahoo(symbols=ticker, start=datetime(1999, 1, 4), end=datetime(2021, 3, 1))
-        time.sleep(5)
-        i+=1
+        df = pdr.get_data_yahoo(symbols=ticker, start=datetime(1999, 1, 4), end=datetime(2021, 3, 1))
+        if str(df.index[0]) == '1999-01-04 00:00:00' and str(df.index[-1]) == '2021-03-01 00:00:00':
+            df["Simple Return"] = (df["Adj Close"] - df["Adj Close"].shift(1)) / df["Adj Close"]
+            df["Log Return"] = np.log(df["Adj Close"]) - np.log(df["Adj Close"].shift(1))
+            df.to_pickle("data/raw/" + ticker + ".zip")
+            print(f"saved {ticker}")
+        else:
+            print(f"skipping {ticker}: 1999-01-04 data and/or 2021-03-01 DNE")
     except Exception:
-        print(f"skipping {ticker}: 1999-01-04 data DNE or 2021-03-01 DNE")
+        print(f"API ERROR {ticker}")
+    
+    time.sleep(1)  # to avoid spamming the Yahoo! API
 
-        
-for (ticker, df) in data.items():
-    df["Simple Return"] = (df["Adj Close"] - df["Adj Close"].shift(1)) / df["Adj Close"]
-    df["Log Return"] = np.log(df["Adj Close"]) - np.log(df["Adj Close"].shift(1))
-    df.to_csv("data/raw/" + ticker + ".csv")
