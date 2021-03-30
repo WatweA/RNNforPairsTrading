@@ -1,0 +1,5 @@
+# Apple filesystem
+**.DS_Store
+
+# IPython Notebook
+**.ipynb_checkpoints
