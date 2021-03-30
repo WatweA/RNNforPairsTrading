@@ -9,10 +9,10 @@ Continue building as more tasks arise
   - [X] save the DataFrame as a pickle in `data/raw/<ticker>.zip`
 
 ### Exploratory Data Analysis
-- [ ] calculate and save pairwise corellations:
+- [X] calculate and save pairwise corellations:
   - [X] read all data from the rate-of-change columns in `data/raw/*.zip` into one DataFrame
-  - [ ] calculate all pairwise corellations between columns
-  - [ ] generate a dictionary with a key for each ticker and a list of its 5 most closely corellated tickers with the Pearson-r coefficient
+  - [X] calculate all pairwise corellations between columns
+  - [X] generate a dictionary with a key for each ticker and a list of its 5 most closely corellated tickers with the Pearson-r coefficient
     - i.e. this would look like the following JSON when saved to a file:
       ```JSON
       { "someTicker1": {
@@ -24,7 +24,7 @@ Continue building as more tasks arise
         }, ...
       }
       ```
-  - [ ] place these pairs into `data/info/corellations.json`
+  - [X] place these pairs into `data/info/corellations.json`
 - [ ] select pairs:
   - [ ] read pairs from `data/info/corellations.json`
   - [ ] find at least 25 unique pairs and save them to `data/info/pairs.txt` (one pair per line, comma separated)
