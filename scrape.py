@@ -8,7 +8,7 @@ import pandas_datareader as pdr
 
 
 tickers = dict()
-with open("tickers.txt") as f:
+with open("data/info/tickers.txt") as f:
     # reader the header line
     headers = f.readline().strip().lower().split(",")
     tickers = {header: [] for header in headers}
