@@ -11,7 +11,6 @@ Continue building as more tasks arise
 ### Exploratory Data Analysis
 - [ ] calculate and save pairwise corellations:
   - [X] read all data from the rate-of-change columns in `data/raw/*.zip` into one DataFrame
-  - [ ] save this DataFrame to `data/df/daily_return.zip`
   - [ ] calculate all pairwise corellations between columns
   - [ ] generate a dictionary with a key for each ticker and a list of its 5 most closely corellated tickers with the Pearson-r coefficient
     - i.e. this would look like the following JSON when saved to a file:
