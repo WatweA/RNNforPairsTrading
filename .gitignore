@@ -1,6 +1,9 @@
 # Apple filesystem
 **.DS_Store
 
+# Pycharm
+**.idea
+
 # Virtual environment
 venv
 
