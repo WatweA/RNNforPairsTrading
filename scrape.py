@@ -3,7 +3,6 @@
 import time
 from datetime import datetime
 import numpy as np
-import pandas as pd
 import pandas_datareader as pdr
 
 
@@ -35,7 +34,7 @@ for ticker in tickers["symbol"]:
             print(f"saved {ticker}")
         else:
             print(f"skipping {ticker}: 1999-01-04 data and/or 2021-03-01 DNE")
-    except Exception:
+    except (KeyError, IOError) as e:
         print(f"API ERROR {ticker}")
     
     time.sleep(1)  # to avoid spamming the Yahoo! API
