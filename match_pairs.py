@@ -8,11 +8,12 @@ import pandas_market_calendars as mcal
 tickers = sorted([ticker[9:-4] for ticker in glob.glob("data/raw/*.zip")])
 
 # initialize dataframe with trading day indices
-dates = mcal.get_calendar('NYSE').schedule(start_date="1999-01-05", end_date="2021-03-01").index
+dates = mcal.get_calendar('NYSE').schedule(start_date="1999-01-04", end_date="2021-03-01").index
 daily_returns = pd.DataFrame(index=dates)  # trading dates
 for ticker in tickers:
     df = pd.read_pickle("data/raw/" + ticker + ".zip")  # needs pickle5 compression (python 3.8)
     daily_returns[ticker] = df["Log Return"].fillna(method='ffill')
+daily_returns.fillna(0, inplace=True)
 
 print("daily log returns dataframe:")
 print(daily_returns)
