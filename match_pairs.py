@@ -104,9 +104,9 @@ def match_tickers(corr_dict: Dict[str, Dict[str, float]], min_corr=0, debug=Fals
 
 # get the matched tickers for all with correlation coefficients above 0.75
 matched_tickers = match_tickers(top_5_corr, min_corr=0.75)
-# tuple to list representation for keys, save as JSON
+# tuple to str representation for keys, save as JSON
 matched_tickers_JSON = json.dumps(
-    {list(k): v for k,v in matched_tickers.items()}, 
+    {str(k): v for k,v in matched_tickers.items()}, 
     sort_keys=False, indent=4, separators=(',', ': '))
 save_path = "data/info/pairs.json"
 open(save_path,"w").write(matched_tickers_JSON)
