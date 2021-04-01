@@ -4,6 +4,9 @@ import numpy as np
 import pandas as pd
 
 
+TRADING_DAYS = 252
+
+
 def to_signal(predicted_returns: np.ndarray,
               signal_dict: Dict[Tuple[Optional[float], Optional[float]], float] = None
               ) -> np.ndarray:
@@ -64,14 +67,26 @@ def adjusted_returns(signals: np.ndarray,
     return np.array(adjusted_a), np.array(adjusted_b)
 
 
+def cumulative_return(returns_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Calculate the cumulative returns for all columns in the returns DataFrame
+
+    :param returns_df: the DataFrame of returns
+    :return: a DataFrame of cumulative returns for each column
+    """
+    cumulative_return_df = returns_df.fillna(0) + 1
+    return cumulative_return_df.cumprod(axis=0)
+
+
 def annualized_return(returns_df: pd.DataFrame) -> pd.DataFrame:
     """
-    Calculate an return the annualized return for all columns in the returns DataFrame
+    Calculate an return the annualized return for all daily return columns in the given DataFrame
 
     :param returns_df: the DataFrame of returns
     :return: a series of annualized returns for each column
     """
-    cumprod_df = returns_df
-    cumprod_df.fillna(0, inplace=True)
-    cumprod_df.iloc[0, :] += 1
-    return cumprod_df.cumprod(axis=0)
+    n_days = len(returns_df.index)
+    returns = returns_df.add(1).prod(axis=0)
+    # annualized with the number of days and the total days per trading year
+    returns = (returns ** (TRADING_DAYS/n_days)).add(-1)
+    return returns
