@@ -25,9 +25,23 @@ Continue building as more tasks arise
       }
       ```
   - [X] place these pairs into `data/info/corellations.json`
-- [ ] select pairs:
-  - [ ] read pairs from `data/info/corellations.json`
-  - [ ] find at least 25 unique pairs and save them to `data/info/pairs.txt` (one pair per line, comma separated)
+- [X] select pairs:
+  - [X] read pairs from `data/info/corellations.json`
+  - [X] find at least 25 unique pairs and save them to `data/info/pairs.json` pairs as keys, correlations as values
+
+### Feature Generation
+- [X] implement geometric Brownian motion simulation for the ratio of returns
+- [ ] implement ARIMA with 5 autoregressive look-backs and 1 differencing step as a feature column
 
 ### Benchmark Models
-- [ ] ...
+- [X] implement methods to find cumulative returns of a returns DataFrame, and to get the columns' annualized returns
+- [ ] implement methods to take predicted return ratios and real return ratios and evaluate them as:
+  - [ ] regression, with RMSE/MSE and Pearson r
+  - [ ] classification, with accuracy, confusion matrix, and F1-scores for positive/negative classifications
+  - [X] financial, with sharpe ratio, excess return, and annualized return
+- [ ] for all pairs in `pairs.json`, train and evaluate the following models:
+  - [ ] linear regression with L1 and/or L2 regularization
+  - [ ] polynomial regression (regularized)
+  - [ ] SVM regression, with cross validation to find the optimal regression parameter, and a linear kernel
+  - [ ] random forest regression
+  - [ ] ... 
