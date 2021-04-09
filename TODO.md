@@ -31,17 +31,32 @@ Continue building as more tasks arise
 
 ### Feature Generation
 - [X] implement geometric Brownian motion simulation for the ratio of returns
-- [ ] implement ARIMA with 5 autoregressive look-backs and 1 differencing step as a feature column
+- [ ] implement ARIMA with 5 autoregressive look-backs and 1 differencing step on log returns as a feature column
+- [ ] save all generated dataframes in `data/processed/[ticker_a]-[ticker_b].zip`
 
 ### Benchmark Models
 - [X] implement methods to find cumulative returns of a returns DataFrame, and to get the columns' annualized returns
 - [ ] implement methods to take predicted return ratios and real return ratios and evaluate them as:
   - [ ] regression, with RMSE/MSE and Pearson r
   - [ ] classification, with accuracy, confusion matrix, and F1-scores for positive/negative classifications
+    - [ ] IMPORTANT: fix the bucket sizes for regression prediction into classes
   - [X] financial, with sharpe ratio, excess return, and annualized return
+- [ ] generate method to apply sci-kit learn model over a rolling window given features and a target column
+  - parameters: training window size, testing window size
 - [ ] for all pairs in `pairs.json`, train and evaluate the following models:
-  - [ ] linear regression with L1 and/or L2 regularization
-  - [ ] polynomial regression (regularized)
+  - use following random seed: 81734
+  - [ ] linear regression (Elastic Net) with L1 and/or L2 regularization
   - [ ] SVM regression, with cross validation to find the optimal regression parameter, and a linear kernel
   - [ ] random forest regression
-  - [ ] ... 
+  - [ ] ADABoost and GradientBoostingRegressor
+  - [ ] Feed-forward NN
+  - [ ] RNN (top of stack)
+  - [ ] save all predicted dataframes in `data/pred/[ticker_a]-[ticker_b].zip`
+    - columns: all feature columns, true return column, one predicted return column for each model
+
+### Data Visualizations
+- [ ] heat map sorted by industry then by ticker name
+- [ ] threshold plot for cumulative returns comparing true vs. predicted
+- [ ] ROC Curve: 1 for each pair, includes line for all models
+- [ ] optional: Tableau dashboard if time allows
+
