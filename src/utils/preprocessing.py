@@ -28,20 +28,20 @@ def generate_pair_data(df_A: pd.DataFrame,
     rolling_1w_A = df_A.rolling(10)
     rolling_1m_A = df_A.rolling(21)
     rolling_3m_A = df_A.rolling(63)
-    # rolling_6m_A = df_A.rolling(126)
-    # rolling_1y_A = df_A.rolling(252)
+    rolling_6m_A = df_A.rolling(126)
+    rolling_1y_A = df_A.rolling(252)
     rolling_1w_B = df_B.rolling(10)
     rolling_1m_B = df_B.rolling(21)
     rolling_3m_B = df_B.rolling(63)
-    # rolling_6m_B = df_B.rolling(126)
-    # rolling_1y_B = df_B.rolling(252)
+    rolling_6m_B = df_B.rolling(126)
+    rolling_1y_B = df_B.rolling(252)
 
     # add the rolling volatility ratios
     pair_df["1W Std."] = rolling_1w_A["Log Return"].std(ddof=0) / rolling_1w_B["Log Return"].std(ddof=0)
     pair_df["1M Std."] = rolling_1m_A["Log Return"].std(ddof=0) / rolling_1m_B["Log Return"].std(ddof=0)
     pair_df["3M Std."] = rolling_3m_A["Log Return"].std(ddof=0) / rolling_3m_B["Log Return"].std(ddof=0)
-    # pair_df["6M Std."] = rolling_6m_A["Log Return"].std(ddof=0) / rolling_6m_B["Log Return"].std(ddof=0)
-    # pair_df["1Y Std."] = rolling_1y_A["Log Return"].std(ddof=0) / rolling_1y_B["Log Return"].std(ddof=0)
+    pair_df["6M Std."] = rolling_6m_A["Log Return"].std(ddof=0) / rolling_6m_B["Log Return"].std(ddof=0)
+    pair_df["1Y Std."] = rolling_1y_A["Log Return"].std(ddof=0) / rolling_1y_B["Log Return"].std(ddof=0)
 
     # add the rolling mean return differences
     pair_df["1D Simple Ret."] = df_A["Simple Return"] - df_B["Simple Return"]
@@ -49,8 +49,8 @@ def generate_pair_data(df_A: pd.DataFrame,
     pair_df["1W Ret."] = rolling_1w_A["Log Return"].mean() - rolling_1w_B["Log Return"].mean()
     pair_df["1M Ret."] = rolling_1m_A["Log Return"].mean() - rolling_1m_B["Log Return"].mean()
     pair_df["3M Ret."] = rolling_3m_A["Log Return"].mean() - rolling_3m_B["Log Return"].mean()
-    # pair_df["6M Ret."] = rolling_6m_A["Log Return"].mean() - rolling_6m_B["Log Return"].mean()
-    # pair_df["1Y Ret."] = rolling_1y_A["Log Return"].mean() - rolling_1y_B["Log Return"].mean()
+    pair_df["6M Ret."] = rolling_6m_A["Log Return"].mean() - rolling_6m_B["Log Return"].mean()
+    pair_df["1Y Ret."] = rolling_1y_A["Log Return"].mean() - rolling_1y_B["Log Return"].mean()
 
     # add the volume columns adjusted for USD as a ratio
     pair_df["1D Vol Ratio"] = (df_A["Adj Close"] * df_A["Volume"]) / (df_B["Adj Close"] * df_B["Volume"])
@@ -60,10 +60,10 @@ def generate_pair_data(df_A: pd.DataFrame,
                                (rolling_1m_B["Adj Close"].mean() * rolling_1m_B["Volume"].mean()))
     pair_df["3M Vol Ratio"] = ((rolling_3m_A["Adj Close"].mean() * rolling_3m_A["Volume"].mean()) /
                                (rolling_3m_B["Adj Close"].mean() * rolling_3m_B["Volume"].mean()))
-    # pair_df["6M Vol Ratio"] = ((rolling_6m_A["Adj Close"].mean() * rolling_6m_A["Volume"].mean()) /
-    #                            (rolling_6m_B["Adj Close"].mean() * rolling_6m_B["Volume"].mean()))
-    # pair_df["1Y Vol Ratio"] = ((rolling_1y_A["Adj Close"].mean() * rolling_1y_A["Volume"].mean()) /
-    #                            (rolling_1y_B["Adj Close"].mean() * rolling_1y_B["Volume"].mean()))
+    pair_df["6M Vol Ratio"] = ((rolling_6m_A["Adj Close"].mean() * rolling_6m_A["Volume"].mean()) /
+                               (rolling_6m_B["Adj Close"].mean() * rolling_6m_B["Volume"].mean()))
+    pair_df["1Y Vol Ratio"] = ((rolling_1y_A["Adj Close"].mean() * rolling_1y_A["Volume"].mean()) /
+                               (rolling_1y_B["Adj Close"].mean() * rolling_1y_B["Volume"].mean()))
 
     # add the columns for projected geometric Brownian motion return using the rolling momentum and volatility values
     pair_df["1D GBM Proj."] = [GeometricBrownianMotion(1, mu, sigma).simulate_average_sT(100) - 1

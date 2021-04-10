@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from typing import Dict, Tuple
 import glob
 import pandas as pd
