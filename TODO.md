@@ -31,7 +31,7 @@ Continue building as more tasks arise
 
 ### Feature Generation
 - [X] implement geometric Brownian motion simulation for the ratio of returns
-- [ ] save all generated dataframes in `data/processed/[ticker_a]-[ticker_b].zip`
+- [X] save all generated dataframes in `data/processed/[ticker_a]-[ticker_b].zip`
 
 ### Benchmark Models
 - [X] implement methods to find cumulative returns of a returns DataFrame, and to get the columns' annualized returns
