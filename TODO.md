@@ -31,7 +31,6 @@ Continue building as more tasks arise
 
 ### Feature Generation
 - [X] implement geometric Brownian motion simulation for the ratio of returns
-- [ ] implement ARIMA with 5 autoregressive look-backs and 1 differencing step on log returns as a feature column
 - [ ] save all generated dataframes in `data/processed/[ticker_a]-[ticker_b].zip`
 
 ### Benchmark Models
