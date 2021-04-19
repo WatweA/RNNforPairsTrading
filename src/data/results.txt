@@ -1,4 +1,128 @@
 ==================================================
+Results for pair ('ADX', 'TY'):
+- Model: Linear Regression
+  - best parameters: {'l1_ratio': 0.1}
+  - MSE: 0.474737
+--------------------------------------------------
+- Model: Support Vector Machine
+  - best parameters: {'C': 1}
+  - MSE: 0.209461
+--------------------------------------------------
+- Model: Random Forest
+  - best parameters: {'n_estimators': 125}
+  - MSE: 0.016416
+--------------------------------------------------
+- Model: Adaptive Boost
+  - best parameters: {'base_estimator': DecisionTreeRegressor(max_depth=3), 'loss': 'exponential', 'n_estimators': 100}
+  - MSE: 0.042872
+--------------------------------------------------
+- Model: Gradient Boost
+  - best parameters: {'n_estimators': 150}
+  - MSE: 0.013000
+--------------------------------------------------
+- Model: Neural Net
+  - best parameters: {'hidden_layer_sizes': (100, 25)}
+  - MSE: 0.068166
+--------------------------------------------------
+- Ensemble of all models
+  - MSE: 0.041960
+--------------------------------------------------
+==================================================
+
+==================================================
+Results for pair ('AEG', 'ING'):
+- Model: Linear Regression
+  - best parameters: {'l1_ratio': 0.1}
+  - MSE: 0.508888
+--------------------------------------------------
+- Model: Support Vector Machine
+  - best parameters: {'C': 10}
+  - MSE: 0.137337
+--------------------------------------------------
+- Model: Random Forest
+  - best parameters: {'n_estimators': 100}
+  - MSE: 0.001884
+--------------------------------------------------
+- Model: Adaptive Boost
+  - best parameters: {'base_estimator': DecisionTreeRegressor(max_depth=3), 'loss': 'linear', 'n_estimators': 200}
+  - MSE: 0.060582
+--------------------------------------------------
+- Model: Gradient Boost
+  - best parameters: {'n_estimators': 150}
+  - MSE: 0.000663
+--------------------------------------------------
+- Model: Neural Net
+  - best parameters: {'hidden_layer_sizes': (100, 25)}
+  - MSE: 0.049065
+--------------------------------------------------
+- Ensemble of all models
+  - MSE: 0.011381
+--------------------------------------------------
+==================================================
+
+==================================================
+Results for pair ('AMAT', 'KLAC'):
+- Model: Linear Regression
+  - best parameters: {'l1_ratio': 0.1}
+  - MSE: 0.597106
+--------------------------------------------------
+- Model: Support Vector Machine
+  - best parameters: {'C': 10}
+  - MSE: 0.160347
+--------------------------------------------------
+- Model: Random Forest
+  - best parameters: {'n_estimators': 100}
+  - MSE: 0.015880
+--------------------------------------------------
+- Model: Adaptive Boost
+  - best parameters: {'base_estimator': DecisionTreeRegressor(max_depth=3), 'loss': 'exponential', 'n_estimators': 100}
+  - MSE: 0.034719
+--------------------------------------------------
+- Model: Gradient Boost
+  - best parameters: {'n_estimators': 150}
+  - MSE: 0.014995
+--------------------------------------------------
+- Model: Neural Net
+  - best parameters: {'hidden_layer_sizes': (150, 50)}
+  - MSE: 0.038501
+--------------------------------------------------
+- Ensemble of all models
+  - MSE: 0.028760
+--------------------------------------------------
+==================================================
+
+==================================================
+Results for pair ('APA', 'DVN'):
+- Model: Linear Regression
+  - best parameters: {'l1_ratio': 0.1}
+  - MSE: 4.176024
+--------------------------------------------------
+- Model: Support Vector Machine
+  - best parameters: {'C': 10}
+  - MSE: 2.627154
+--------------------------------------------------
+- Model: Random Forest
+  - best parameters: {'n_estimators': 125}
+  - MSE: 1.340423
+--------------------------------------------------
+- Model: Adaptive Boost
+  - best parameters: {'base_estimator': DecisionTreeRegressor(max_depth=3), 'loss': 'linear', 'n_estimators': 100}
+  - MSE: 1.380517
+--------------------------------------------------
+- Model: Gradient Boost
+  - best parameters: {'n_estimators': 150}
+  - MSE: 1.323948
+--------------------------------------------------
+- Model: Neural Net
+  - best parameters: {'hidden_layer_sizes': (100, 25)}
+  - MSE: 1.692990
+--------------------------------------------------
+- Ensemble of all models
+  - MSE: 1.562904
+--------------------------------------------------
+==================================================
+
+==================================================
 Results for pair ('ASA', 'AU'):
 - Model: Linear Regression
   - best parameters: {'l1_ratio': 0.1}
