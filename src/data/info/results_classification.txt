@@ -1,0 +1,855 @@
+
+('BAC', 'WFC')
+==================================================
+Results for pair ('BAC', 'WFC'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[709   1]
+ [  3 837]]
+  - Accuracy: 0.997419
+  - Recall: 0.996429
+  - Precision: 0.998807
+  - F1-Score: 0.997616
+--------------------------------------------------
+==================================================
+
+('HP', 'PTEN')
+==================================================
+Results for pair ('HP', 'PTEN'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[790   2]
+ [  0 758]]
+  - Accuracy: 0.998710
+  - Recall: 1.000000
+  - Precision: 0.997368
+  - F1-Score: 0.998682
+--------------------------------------------------
+==================================================
+
+('AEG', 'ING')
+==================================================
+Results for pair ('AEG', 'ING'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[761   4]
+ [  0 785]]
+  - Accuracy: 0.997419
+  - Recall: 1.000000
+  - Precision: 0.994930
+  - F1-Score: 0.997459
+--------------------------------------------------
+==================================================
+
+('TDS', 'USM')
+==================================================
+Results for pair ('TDS', 'USM'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[767   5]
+ [  0 778]]
+  - Accuracy: 0.996774
+  - Recall: 1.000000
+  - Precision: 0.993614
+  - F1-Score: 0.996797
+--------------------------------------------------
+==================================================
+
+('MRO', 'MUR')
+==================================================
+Results for pair ('MRO', 'MUR'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[789   0]
+ [  4 757]]
+  - Accuracy: 0.997419
+  - Recall: 0.994744
+  - Precision: 1.000000
+  - F1-Score: 0.997365
+--------------------------------------------------
+==================================================
+
+('AVB', 'EQR')
+==================================================
+Results for pair ('AVB', 'EQR'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[767   0]
+ [  0 783]]
+  - Accuracy: 1.000000
+  - Recall: 1.000000
+  - Precision: 1.000000
+  - F1-Score: 1.000000
+--------------------------------------------------
+==================================================
+
+('CMA', 'TFC')
+==================================================
+Results for pair ('CMA', 'TFC'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[740   1]
+ [  0 809]]
+  - Accuracy: 0.999355
+  - Recall: 1.000000
+  - Precision: 0.998765
+  - F1-Score: 0.999382
+--------------------------------------------------
+==================================================
+
+('FRT', 'REG')
+==================================================
+Results for pair ('FRT', 'REG'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[809   0]
+ [  0 741]]
+  - Accuracy: 1.000000
+  - Recall: 1.000000
+  - Precision: 1.000000
+  - F1-Score: 1.000000
+--------------------------------------------------
+==================================================
+
+('CPT', 'UDR')
+==================================================
+Results for pair ('CPT', 'UDR'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[743   6]
+ [  0 801]]
+  - Accuracy: 0.996129
+  - Recall: 1.000000
+  - Precision: 0.992565
+  - F1-Score: 0.996269
+--------------------------------------------------
+==================================================
+
+('IAC', 'MTCH')
+==================================================
+Results for pair ('IAC', 'MTCH'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[  79    4]
+ [   0 1467]]
+  - Accuracy: 0.997419
+  - Recall: 1.000000
+  - Precision: 0.997281
+  - F1-Score: 0.998639
+--------------------------------------------------
+==================================================
+
+('KBH', 'PHM')
+==================================================
+Results for pair ('KBH', 'PHM'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[750   3]
+ [  0 797]]
+  - Accuracy: 0.998065
+  - Recall: 1.000000
+  - Precision: 0.996250
+  - F1-Score: 0.998121
+--------------------------------------------------
+==================================================
+
+('ED', 'SO')
+==================================================
+Results for pair ('ED', 'SO'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[753  13]
+ [  0 784]]
+  - Accuracy: 0.991613
+  - Recall: 1.000000
+  - Precision: 0.983689
+  - F1-Score: 0.991777
+--------------------------------------------------
+==================================================
+
+('RMT', 'RVT')
+==================================================
+Results for pair ('RMT', 'RVT'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[775   0]
+ [  3 772]]
+  - Accuracy: 0.998065
+  - Recall: 0.996129
+  - Precision: 1.000000
+  - F1-Score: 0.998061
+--------------------------------------------------
+==================================================
+
+('IFN', 'IIF')
+==================================================
+Results for pair ('IFN', 'IIF'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[765   0]
+ [  4 781]]
+  - Accuracy: 0.997419
+  - Recall: 0.994904
+  - Precision: 1.000000
+  - F1-Score: 0.997446
+--------------------------------------------------
+==================================================
+
+('BEN', 'TROW')
+==================================================
+Results for pair ('BEN', 'TROW'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[813  24]
+ [  0 713]]
+  - Accuracy: 0.984516
+  - Recall: 1.000000
+  - Precision: 0.967436
+  - F1-Score: 0.983448
+--------------------------------------------------
+==================================================
+
+('GOLD', 'NEM')
+==================================================
+Results for pair ('GOLD', 'NEM'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[798   1]
+ [  1 750]]
+  - Accuracy: 0.998710
+  - Recall: 0.998668
+  - Precision: 0.998668
+  - F1-Score: 0.998668
+--------------------------------------------------
+==================================================
+
+('COP', 'PEO')
+==================================================
+Results for pair ('COP', 'PEO'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[800   0]
+ [  2 748]]
+  - Accuracy: 0.998710
+  - Recall: 0.997333
+  - Precision: 1.000000
+  - F1-Score: 0.998665
+--------------------------------------------------
+==================================================
+
+('MAC', 'SPG')
+==================================================
+Results for pair ('MAC', 'SPG'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[792   0]
+ [  0 758]]
+  - Accuracy: 1.000000
+  - Recall: 1.000000
+  - Precision: 1.000000
+  - F1-Score: 1.000000
+--------------------------------------------------
+==================================================
+
+('GAM', 'USA')
+==================================================
+Results for pair ('GAM', 'USA'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[805   6]
+ [  0 739]]
+  - Accuracy: 0.996129
+  - Recall: 1.000000
+  - Precision: 0.991946
+  - F1-Score: 0.995957
+--------------------------------------------------
+==================================================
+
+('CCL', 'RCL')
+==================================================
+Results for pair ('CCL', 'RCL'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[773   6]
+ [  0 771]]
+  - Accuracy: 0.996129
+  - Recall: 1.000000
+  - Precision: 0.992278
+  - F1-Score: 0.996124
+--------------------------------------------------
+==================================================
+
+('FULT', 'VLY')
+==================================================
+Results for pair ('FULT', 'VLY'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[799   8]
+ [  1 742]]
+  - Accuracy: 0.994194
+  - Recall: 0.998654
+  - Precision: 0.989333
+  - F1-Score: 0.993972
+--------------------------------------------------
+==================================================
+
+('GFI', 'HMY')
+==================================================
+Results for pair ('GFI', 'HMY'):
+- Model: Linear Regression
+  - Confusion Matrix:
+[[766   0]
+ [  0 784]]
+  - Accuracy: 1.000000
+  - Recall: 1.000000
+  - Precision: 1.000000
+  - F1-Score: 1.000000
+--------------------------------------------------
+- Model: Support Vector Machine
+  - Confusion Matrix:
+[[693  73]
+ [  7 777]]
+  - Accuracy: 0.948387
+  - Recall: 0.991071
+  - Precision: 0.914118
+  - F1-Score: 0.951040
+--------------------------------------------------
+- Model: Random Forest
+  - Confusion Matrix:
+[[766   0]
+ [  1 783]]
+  - Accuracy: 0.999355
+  - Recall: 0.998724
+  - Precision: 1.000000
+  - F1-Score: 0.999362
+--------------------------------------------------
+- Model: Adaptive Boost
+  - Confusion Matrix:
+[[652 114]
+ [  0 784]]
+  - Accuracy: 0.926452
+  - Recall: 1.000000
+  - Precision: 0.873051
+  - F1-Score: 0.932224
+--------------------------------------------------
+- Model: Gradient Boost
+  - Confusion Matrix:
+[[766   0]
+ [  0 784]]
+  - Accuracy: 1.000000
+  - Recall: 1.000000
+  - Precision: 1.000000
+  - F1-Score: 1.000000
+--------------------------------------------------
+- Model: Neural Net
+  - Confusion Matrix:
+[[761   5]
+ [  4 780]]
+  - Accuracy: 0.994194
+  - Recall: 0.994898
+  - Precision: 0.993631
+  - F1-Score: 0.994264
+--------------------------------------------------
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[761   5]
+ [  0 784]]
+  - Accuracy: 0.996774
+  - Recall: 1.000000
+  - Precision: 0.993663
+  - F1-Score: 0.996821
+--------------------------------------------------
+==================================================
+
+('KIM', 'WRI')
+==================================================
+Results for pair ('KIM', 'WRI'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[788   0]
+ [  0 762]]
+  - Accuracy: 1.000000
+  - Recall: 1.000000
+  - Precision: 1.000000
+  - F1-Score: 1.000000
+--------------------------------------------------
+==================================================
+
+('AMAT', 'KLAC')
+==================================================
+Results for pair ('AMAT', 'KLAC'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[769   0]
+ [  2 779]]
+  - Accuracy: 0.998710
+  - Recall: 0.997439
+  - Precision: 1.000000
+  - F1-Score: 0.998718
+--------------------------------------------------
+==================================================
+
+('ADX', 'TY')
+==================================================
+Results for pair ('ADX', 'TY'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[762  17]
+ [  0 771]]
+  - Accuracy: 0.989032
+  - Recall: 1.000000
+  - Precision: 0.978426
+  - F1-Score: 0.989096
+--------------------------------------------------
+==================================================
+
+('ASA', 'AU')
+==================================================
+Results for pair ('ASA', 'AU'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[799   0]
+ [  0 751]]
+  - Accuracy: 1.000000
+  - Recall: 1.000000
+  - Precision: 1.000000
+  - F1-Score: 1.000000
+--------------------------------------------------
+==================================================
+
+('HES', 'OXY')
+==================================================
+Results for pair ('HES', 'OXY'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[741   5]
+ [  0 804]]
+  - Accuracy: 0.996774
+  - Recall: 1.000000
+  - Precision: 0.993820
+  - F1-Score: 0.996900
+--------------------------------------------------
+==================================================
+
+('CSX', 'NSC')
+==================================================
+Results for pair ('CSX', 'NSC'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[764  13]
+ [  0 773]]
+  - Accuracy: 0.991613
+  - Recall: 1.000000
+  - Precision: 0.983461
+  - F1-Score: 0.991661
+--------------------------------------------------
+==================================================
+
+('CUZ', 'WRE')
+==================================================
+Results for pair ('CUZ', 'WRE'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[740  12]
+ [  0 798]]
+  - Accuracy: 0.992258
+  - Recall: 1.000000
+  - Precision: 0.985185
+  - F1-Score: 0.992537
+--------------------------------------------------
+==================================================
+
+('HIW', 'KRC')
+==================================================
+Results for pair ('HIW', 'KRC'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[767   0]
+ [  3 780]]
+  - Accuracy: 0.998065
+  - Recall: 0.996169
+  - Precision: 1.000000
+  - F1-Score: 0.998081
+--------------------------------------------------
+==================================================
+
+('PEAK', 'WELL')
+==================================================
+Results for pair ('PEAK', 'WELL'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[751   2]
+ [  0 797]]
+  - Accuracy: 0.998710
+  - Recall: 1.000000
+  - Precision: 0.997497
+  - F1-Score: 0.998747
+--------------------------------------------------
+==================================================
+
+('LSI', 'PSA')
+==================================================
+Results for pair ('LSI', 'PSA'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[758   0]
+ [  0 792]]
+  - Accuracy: 1.000000
+  - Recall: 1.000000
+  - Precision: 1.000000
+  - F1-Score: 1.000000
+--------------------------------------------------
+==================================================
+
+('HAL', 'SLB')
+==================================================
+Results for pair ('HAL', 'SLB'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[732   5]
+ [  0 813]]
+  - Accuracy: 0.996774
+  - Recall: 1.000000
+  - Precision: 0.993888
+  - F1-Score: 0.996934
+--------------------------------------------------
+==================================================
+
+('ARW', 'AVT')
+==================================================
+Results for pair ('ARW', 'AVT'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[759  23]
+ [  0 768]]
+  - Accuracy: 0.985161
+  - Recall: 1.000000
+  - Precision: 0.970923
+  - F1-Score: 0.985247
+--------------------------------------------------
+==================================================
+
+('PNC', 'USB')
+==================================================
+Results for pair ('PNC', 'USB'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[722   0]
+ [  4 824]]
+  - Accuracy: 0.997419
+  - Recall: 0.995169
+  - Precision: 1.000000
+  - F1-Score: 0.997579
+--------------------------------------------------
+==================================================
+
+('CVX', 'XOM')
+==================================================
+Results for pair ('CVX', 'XOM'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[743   4]
+ [  0 803]]
+  - Accuracy: 0.997419
+  - Recall: 1.000000
+  - Precision: 0.995043
+  - F1-Score: 0.997516
+--------------------------------------------------
+==================================================
+
+('NNN', 'O')
+==================================================
+Results for pair ('NNN', 'O'):
+- Model: Linear Regression
+  - Confusion Matrix:
+[[785   1]
+ [  0 764]]
+  - Accuracy: 0.999355
+  - Recall: 1.000000
+  - Precision: 0.998693
+  - F1-Score: 0.999346
+--------------------------------------------------
+- Model: Support Vector Machine
+  - Confusion Matrix:
+[[772  14]
+ [ 40 724]]
+  - Accuracy: 0.965161
+  - Recall: 0.947644
+  - Precision: 0.981030
+  - F1-Score: 0.964048
+--------------------------------------------------
+- Model: Random Forest
+  - Confusion Matrix:
+[[785   1]
+ [  0 764]]
+  - Accuracy: 0.999355
+  - Recall: 1.000000
+  - Precision: 0.998693
+  - F1-Score: 0.999346
+--------------------------------------------------
+- Model: Adaptive Boost
+  - Confusion Matrix:
+[[777   9]
+ [  0 764]]
+  - Accuracy: 0.994194
+  - Recall: 1.000000
+  - Precision: 0.988357
+  - F1-Score: 0.994144
+--------------------------------------------------
+- Model: Gradient Boost
+  - Confusion Matrix:
+[[785   1]
+ [  0 764]]
+  - Accuracy: 0.999355
+  - Recall: 1.000000
+  - Precision: 0.998693
+  - F1-Score: 0.999346
+--------------------------------------------------
+- Model: Neural Net
+  - Confusion Matrix:
+[[783   3]
+ [  2 762]]
+  - Accuracy: 0.996774
+  - Recall: 0.997382
+  - Precision: 0.996078
+  - F1-Score: 0.996730
+--------------------------------------------------
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[782   4]
+ [  0 764]]
+  - Accuracy: 0.997419
+  - Recall: 1.000000
+  - Precision: 0.994792
+  - F1-Score: 0.997389
+--------------------------------------------------
+==================================================
+
+('APA', 'DVN')
+==================================================
+Results for pair ('APA', 'DVN'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[769   4]
+ [  0 777]]
+  - Accuracy: 0.997419
+  - Recall: 1.000000
+  - Precision: 0.994878
+  - F1-Score: 0.997433
+--------------------------------------------------
+==================================================
+
+('ELS', 'MAA')
+==================================================
+Results for pair ('ELS', 'MAA'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[769   0]
+ [  3 778]]
+  - Accuracy: 0.998065
+  - Recall: 0.996159
+  - Precision: 1.000000
+  - F1-Score: 0.998076
+--------------------------------------------------
+==================================================
+
+('DHI', 'LEN')
+==================================================
+Results for pair ('DHI', 'LEN'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[764   6]
+ [  1 779]]
+  - Accuracy: 0.995484
+  - Recall: 0.998718
+  - Precision: 0.992357
+  - F1-Score: 0.995527
+--------------------------------------------------
+==================================================
+
+('BMO', 'RY')
+==================================================
+Results for pair ('BMO', 'RY'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[769   6]
+ [  0 775]]
+  - Accuracy: 0.996129
+  - Recall: 1.000000
+  - Precision: 0.992318
+  - F1-Score: 0.996144
+--------------------------------------------------
+==================================================
+
+('DRE', 'PLD')
+==================================================
+Results for pair ('DRE', 'PLD'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[776   9]
+ [  0 765]]
+  - Accuracy: 0.994194
+  - Recall: 1.000000
+  - Precision: 0.988372
+  - F1-Score: 0.994152
+--------------------------------------------------
+==================================================
+
+('CM', 'TD')
+==================================================
+Results for pair ('CM', 'TD'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[754  11]
+ [  0 785]]
+  - Accuracy: 0.992903
+  - Recall: 1.000000
+  - Precision: 0.986181
+  - F1-Score: 0.993042
+--------------------------------------------------
+==================================================
+
+('BBVA', 'SAN')
+==================================================
+Results for pair ('BBVA', 'SAN'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[749   0]
+ [  5 796]]
+  - Accuracy: 0.996774
+  - Recall: 0.993758
+  - Precision: 1.000000
+  - F1-Score: 0.996869
+--------------------------------------------------
+==================================================
+
+('BK', 'NTRS')
+==================================================
+Results for pair ('BK', 'NTRS'):
+- Model: Linear Regression
+  - Confusion Matrix:
+[[752   0]
+ [  5 793]]
+  - Accuracy: 0.996774
+  - Recall: 0.993734
+  - Precision: 1.000000
+  - F1-Score: 0.996857
+--------------------------------------------------
+- Model: Support Vector Machine
+  - Confusion Matrix:
+[[736  16]
+ [ 14 784]]
+  - Accuracy: 0.980645
+  - Recall: 0.982456
+  - Precision: 0.980000
+  - F1-Score: 0.981227
+--------------------------------------------------
+- Model: Random Forest
+  - Confusion Matrix:
+[[751   1]
+ [  0 798]]
+  - Accuracy: 0.999355
+  - Recall: 1.000000
+  - Precision: 0.998748
+  - F1-Score: 0.999374
+--------------------------------------------------
+- Model: Adaptive Boost
+  - Confusion Matrix:
+[[752   0]
+ [ 50 748]]
+  - Accuracy: 0.967742
+  - Recall: 0.937343
+  - Precision: 1.000000
+  - F1-Score: 0.967658
+--------------------------------------------------
+- Model: Gradient Boost
+  - Confusion Matrix:
+[[737  15]
+ [  0 798]]
+  - Accuracy: 0.990323
+  - Recall: 1.000000
+  - Precision: 0.981550
+  - F1-Score: 0.990689
+--------------------------------------------------
+- Model: Neural Net
+  - Confusion Matrix:
+[[748   4]
+ [  5 793]]
+  - Accuracy: 0.994194
+  - Recall: 0.993734
+  - Precision: 0.994981
+  - F1-Score: 0.994357
+--------------------------------------------------
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[749   3]
+ [  0 798]]
+  - Accuracy: 0.998065
+  - Recall: 1.000000
+  - Precision: 0.996255
+  - F1-Score: 0.998124
+--------------------------------------------------
+==================================================
+
+('BXP', 'VNO')
+==================================================
+Results for pair ('BXP', 'VNO'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[733   2]
+ [  0 815]]
+  - Accuracy: 0.998710
+  - Recall: 1.000000
+  - Precision: 0.997552
+  - F1-Score: 0.998775
+--------------------------------------------------
+==================================================
+
+('FITB', 'RF')
+==================================================
+Results for pair ('FITB', 'RF'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[762   0]
+ [  6 782]]
+  - Accuracy: 0.996129
+  - Recall: 0.992386
+  - Precision: 1.000000
+  - F1-Score: 0.996178
+--------------------------------------------------
+==================================================
+
+('HQH', 'HQL')
+==================================================
+Results for pair ('HQH', 'HQL'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[784   3]
+ [  0 763]]
+  - Accuracy: 0.998065
+  - Recall: 1.000000
+  - Precision: 0.996084
+  - F1-Score: 0.998038
+--------------------------------------------------
+==================================================
+
+('E', 'TOT')
+==================================================
+Results for pair ('E', 'TOT'):
+- Ensemble of Random Forest, Adaptive Boost, Gradient Boost, and Neural Net
+  - Confusion Matrix:
+[[785   9]
+ [  0 756]]
+  - Accuracy: 0.994194
+  - Recall: 1.000000
+  - Precision: 0.988235
+  - F1-Score: 0.994083
+--------------------------------------------------
+==================================================
+
+- Confusion Matrix of ensemble prediction across all pairs
+[[36878   227]
+ [   42 38803]]
+  - Accuracy: 0.996458
+--------------------------------------------------
+==================================================
