@@ -1,0 +1,27 @@
+('ADX', 'TY')
+==================================================
+Results for pair ('ADX', 'TY'):
+- Return Difference Stats:
+  - mean: -0.000025
+  - std: 0.005070
+  - quantiles [0.00, 0.25, 0.50, 0.75, 1.00]:
+    [-0.066671, -0.002313, 6e-06, 0.002432, 0.056949]
+WARNING:tensorflow:Layer gru_1 will not use cuDNN kernel since it doesn't meet the cuDNN kernel criteria. It will use generic GPU kernel as fallback when running on GPU
+- Model: Recurrent Neural Net
+  - MSE: 0.000123
+  - MAE: 0.008838
+--------------------------------------------------
+
+('NNN', 'O')
+==================================================
+Results for pair ('NNN', 'O'):
+- Return Difference Stats:
+  - mean: -0.000114
+  - std: 0.008882
+  - quantiles [0.00, 0.25, 0.50, 0.75, 1.00]:
+    [-0.095508, -0.004185, -0.000165, 0.004005, 0.0775]
+WARNING:tensorflow:Layer gru_2 will not use cuDNN kernel since it doesn't meet the cuDNN kernel criteria. It will use generic GPU kernel as fallback when running on GPU
+- Model: Recurrent Neural Net
+  - MSE: 0.000180
+  - MAE: 0.008235
+--------------------------------------------------
