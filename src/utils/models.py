@@ -39,3 +39,6 @@ class GeometricBrownianMotion:
             sT += self.simulate()[-1]
         return sT / n_simulations
 
+
+class PairsRNN:
+    pass
